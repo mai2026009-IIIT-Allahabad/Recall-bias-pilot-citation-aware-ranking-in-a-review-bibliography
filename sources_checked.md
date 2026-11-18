@@ -1,0 +1,12 @@
+# Primary-source and metadata checks
+
+| Source | Record checked | Verification result |
+|---|---|---|
+| ACL Anthology: https://aclanthology.org/2025.findings-naacl.381/ | Algaba et al., *Large Language Models Reflect Human Citation Patterns with a Heightened Citation Bias* | Confirmed title, six authors, 2025 venue, DOI, official page range 6844-6879, and abstract statement about stronger high-citation bias. Crossref returns a conflicting page range (6829-6864); this project uses the official ACL Anthology page range. |
+| IOS Press: https://ebooks.iospress.nl/doi/10.3233/SHTI260813 | Ikeguchi et al., *Exploratory Evaluation of Large Language Models for Reducing Language Bias in Systematic Review Screening* | Confirmed title, authors, DOI, pages 130-134, sample sizes (2,911 English records and 483 non-English abstracts), and sensitivity ranges for translation-mediated versus direct multilingual screening. |
+| arXiv: https://arxiv.org/abs/2501.00367 | Tian et al., *Who Gets Recommended? Investigating Gender, Race, and Country Disparities in Paper Recommendations from Large Language Models* | Confirmed title, authors, category, abstract, DOI, and submission date 31 December 2024. |
+| TMLR/OpenReview: https://tmlr.infinite-conf.org/paper_pages/heeJqQXKg7.html | Agarwal et al., *LitLLMs, LLMs for Literature Review: Are We There Yet?* | Confirmed title, authors, abstract on retrieval/reranking and attribution, and presence of an official code link. This code is cited as related work but was not used in the pilot. |
+| Crossref DOI records | Merton 1968; Rasmussen and Montgomery 2018; Ridley et al. 2023; Matsui et al. 2024 | Compared title, authors, venue/year, and DOI with the supplied review's reference list. arXiv DOIs for Tian and Lewis were not served by Crossref and were checked using arXiv metadata instead. |
+| OpenAlex Works API snapshot | All 15 works in the supplied review bibliography | Exact DOI or exact normalized title matching resolved 15 records. One abstract was missing (R04). R06 had two same-title records with different citation counts; the experiment pins the arXiv DOI record. R01's OpenAlex arXiv record year differs from its TMLR citation year; both are retained. |
+
+These checks verify bibliographic identity and selected claims in source abstracts/landing pages. They do not replace reading and evaluating every full paper or establish that the review's evidence selection is complete.
