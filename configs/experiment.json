@@ -1,0 +1,52 @@
+{
+  "protocol_version": "1.0",
+  "frozen_date": "2026-11-17",
+  "corpus_definition": "The 15 works in the reference list of the supplied narrative review, enriched with OpenAlex metadata.",
+  "research_question": "For four review-grounded topic queries over the review's 15 cited works, how does adding an OpenAlex citation-count prior to BM25 affect Recall@5 for manually annotated relevant references, especially the lowest-citation third of the corpus?",
+  "primary_metric": "macro Recall@5",
+  "primary_comparisons": ["BM25", "TF-IDF", "BM25+Citation (lambda=0.25)"],
+  "k": 5,
+  "bm25": {"k1": 1.5, "b": 0.75},
+  "citation_prior": {
+    "transform": "log1p(cited_by_count), min-max normalized over the 15-work corpus",
+    "score": "(1-lambda)*minmax(BM25) + lambda*minmax(log1p(cited_by_count))",
+    "primary_lambda": 0.25,
+    "sensitivity_lambdas": [0.0, 0.1, 0.25, 0.5, 1.0]
+  },
+  "citation_strata": "Sort the 15 works by OpenAlex cited_by_count ascending, then reference ID; assign five each to low, medium, and high. This is corpus-relative, not a global percentile.",
+  "metrics": {
+    "recall_at_5": "Relevant references in top 5 divided by all relevant references for that query; higher is better.",
+    "precision_at_5": "Relevant references in top 5 divided by 5; higher is better.",
+    "ndcg_at_5": "Binary-gain nDCG over top 5; higher is better.",
+    "mrr": "Reciprocal rank of first relevant reference; higher is better.",
+    "low_citation_recall_at_5": "Recall@5 among gold references in the corpus-relative low citation stratum; higher is better.",
+    "mean_log_citations_top_5": "Mean log1p OpenAlex citation count of the top 5; descriptive visibility measure, not a relevance metric."
+  },
+  "queries": [
+    {
+      "query_id": "Q1_citation_recommendation",
+      "text": "citation bias in large language model recommendations of scholarly papers, citation counts, and human citation patterns",
+      "gold_ref_ids": ["R02", "R08", "R15"],
+      "annotation_basis": "Review Sections 3.1 and 7, Table 2, and references [2], [8], [15]: LLM citation recommendation bias and the Matthew effect."
+    },
+    {
+      "query_id": "Q2_language_bias",
+      "text": "language bias and non-English studies in systematic reviews, multilingual screening, and translation-free multilingual abstracts",
+      "gold_ref_ids": ["R05", "R09", "R12", "R14"],
+      "annotation_basis": "Review Sections 3.2 and 5, Table 2, and references [5], [9], [12], [14]: multilingual screening, non-English review inclusion, and linguistic bias."
+    },
+    {
+      "query_id": "Q3_llm_screening",
+      "text": "large language models screening titles and abstracts for eligible systematic review studies, sensitivity, specificity, and false negatives",
+      "gold_ref_ids": ["R03", "R04", "R05", "R07", "R13"],
+      "annotation_basis": "Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+    },
+    {
+      "query_id": "Q4_retrieval_rag",
+      "text": "retrieval augmented generation for scientific literature review search, ranking, source attribution, and corpus feedback",
+      "gold_ref_ids": ["R01", "R06", "R11"],
+      "annotation_basis": "Review Section 4.2, Sections 7.1 and 9.2-9.4, Table 2, references [1], [6], [11]: literature-review retrieval, RAG, and test-time corpus feedback."
+    }
+  ],
+  "pre_run_decision_rule": "Report a citation-prior trade-off descriptively if the primary lambda=0.25 system has higher mean log citation count in its top five than both lexical baselines and lower low-citation Recall@5 than both. Do not infer statistical significance or generalize beyond this corpus."
+}
