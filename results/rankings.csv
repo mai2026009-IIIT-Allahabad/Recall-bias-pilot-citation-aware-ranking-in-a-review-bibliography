@@ -1,0 +1,181 @@
+query_id,method,rank,ref_id,score,relevant,citation_stratum,cited_by_count
+Q1_citation_recommendation,BM25,1,R02,16.722215,1,medium,56
+Q1_citation_recommendation,BM25,2,R15,13.077150,1,low,6
+Q1_citation_recommendation,BM25,3,R13,5.903287,0,high,283
+Q1_citation_recommendation,BM25,4,R12,3.848165,0,low,5
+Q1_citation_recommendation,BM25,5,R05,2.899682,0,low,0
+Q1_citation_recommendation,BM25,6,R14,2.779935,0,medium,145
+Q1_citation_recommendation,BM25,7,R07,2.369544,0,medium,81
+Q1_citation_recommendation,BM25,8,R01,2.342810,0,medium,53
+Q1_citation_recommendation,BM25,9,R06,2.268346,0,high,10269
+Q1_citation_recommendation,BM25,10,R03,2.039321,0,medium,168
+Q1_citation_recommendation,BM25,11,R10,1.983691,0,high,158445
+Q1_citation_recommendation,BM25,12,R09,1.174056,0,high,238
+Q1_citation_recommendation,BM25,13,R04,1.032900,0,low,5
+Q1_citation_recommendation,BM25,14,R11,0.707713,0,low,9
+Q1_citation_recommendation,BM25,15,R08,0.000000,1,high,9801
+Q1_citation_recommendation,TF-IDF,1,R02,0.304345,1,medium,56
+Q1_citation_recommendation,TF-IDF,2,R15,0.218366,1,low,6
+Q1_citation_recommendation,TF-IDF,3,R13,0.080649,0,high,283
+Q1_citation_recommendation,TF-IDF,4,R04,0.053926,0,low,5
+Q1_citation_recommendation,TF-IDF,5,R12,0.050204,0,low,5
+Q1_citation_recommendation,TF-IDF,6,R05,0.050036,0,low,0
+Q1_citation_recommendation,TF-IDF,7,R14,0.034341,0,medium,145
+Q1_citation_recommendation,TF-IDF,8,R01,0.032431,0,medium,53
+Q1_citation_recommendation,TF-IDF,9,R06,0.029424,0,high,10269
+Q1_citation_recommendation,TF-IDF,10,R03,0.028993,0,medium,168
+Q1_citation_recommendation,TF-IDF,11,R07,0.028887,0,medium,81
+Q1_citation_recommendation,TF-IDF,12,R10,0.021826,0,high,158445
+Q1_citation_recommendation,TF-IDF,13,R09,0.017697,0,high,238
+Q1_citation_recommendation,TF-IDF,14,R11,0.011195,0,low,9
+Q1_citation_recommendation,TF-IDF,15,R08,0.000000,1,high,9801
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),1,R02,0.834419,1,medium,56
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),2,R15,0.627148,1,low,6
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),3,R13,0.382716,0,high,283
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),4,R10,0.338970,0,high,158445
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),5,R06,0.294605,0,high,10269
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),6,R14,0.228739,0,medium,145
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),7,R12,0.210004,0,low,5
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),8,R03,0.198577,0,medium,168
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),9,R07,0.198288,0,medium,81
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),10,R08,0.191895,1,high,9801
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),11,R01,0.188366,0,medium,53
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),12,R09,0.167006,0,high,238
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),13,R05,0.130052,0,low,0
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),14,R04,0.083738,0,low,5
+Q1_citation_recommendation,BM25+Citation (lambda=0.25),15,R11,0.079819,0,low,9
+Q2_language_bias,BM25,1,R05,21.506007,1,low,0
+Q2_language_bias,BM25,2,R09,10.536952,1,high,238
+Q2_language_bias,BM25,3,R14,9.109965,1,medium,145
+Q2_language_bias,BM25,4,R12,6.729954,1,low,5
+Q2_language_bias,BM25,5,R03,5.802393,0,medium,168
+Q2_language_bias,BM25,6,R07,5.282946,0,medium,81
+Q2_language_bias,BM25,7,R13,4.128502,0,high,283
+Q2_language_bias,BM25,8,R10,3.674138,0,high,158445
+Q2_language_bias,BM25,9,R04,3.268063,0,low,5
+Q2_language_bias,BM25,10,R02,2.877873,0,medium,56
+Q2_language_bias,BM25,11,R06,2.098586,0,high,10269
+Q2_language_bias,BM25,12,R01,1.210679,0,medium,53
+Q2_language_bias,BM25,13,R15,0.236914,0,low,6
+Q2_language_bias,BM25,14,R11,0.203413,0,low,9
+Q2_language_bias,BM25,15,R08,0.000000,0,high,9801
+Q2_language_bias,TF-IDF,1,R05,0.389314,1,low,0
+Q2_language_bias,TF-IDF,2,R09,0.159744,1,high,238
+Q2_language_bias,TF-IDF,3,R04,0.133561,0,low,5
+Q2_language_bias,TF-IDF,4,R14,0.107030,1,medium,145
+Q2_language_bias,TF-IDF,5,R12,0.083746,1,low,5
+Q2_language_bias,TF-IDF,6,R03,0.081727,0,medium,168
+Q2_language_bias,TF-IDF,7,R07,0.069403,0,medium,81
+Q2_language_bias,TF-IDF,8,R10,0.056697,0,high,158445
+Q2_language_bias,TF-IDF,9,R13,0.056110,0,high,283
+Q2_language_bias,TF-IDF,10,R02,0.037474,0,medium,56
+Q2_language_bias,TF-IDF,11,R06,0.031921,0,high,10269
+Q2_language_bias,TF-IDF,12,R01,0.018871,0,medium,53
+Q2_language_bias,TF-IDF,13,R15,0.006272,0,low,6
+Q2_language_bias,TF-IDF,14,R11,0.004633,0,low,9
+Q2_language_bias,TF-IDF,15,R08,0.000000,0,high,9801
+Q2_language_bias,BM25+Citation (lambda=0.25),1,R05,0.750000,1,low,0
+Q2_language_bias,BM25+Citation (lambda=0.25),2,R09,0.481814,1,high,238
+Q2_language_bias,BM25+Citation (lambda=0.25),3,R14,0.421759,1,medium,145
+Q2_language_bias,BM25+Citation (lambda=0.25),4,R10,0.378132,0,high,158445
+Q2_language_bias,BM25+Citation (lambda=0.25),5,R03,0.309465,0,medium,168
+Q2_language_bias,BM25+Citation (lambda=0.25),6,R07,0.276250,0,medium,81
+Q2_language_bias,BM25+Citation (lambda=0.25),7,R12,0.272112,1,low,5
+Q2_language_bias,BM25+Citation (lambda=0.25),8,R06,0.266054,0,high,10269
+Q2_language_bias,BM25+Citation (lambda=0.25),9,R13,0.261928,0,high,283
+Q2_language_bias,BM25+Citation (lambda=0.25),10,R08,0.191895,0,high,9801
+Q2_language_bias,BM25+Citation (lambda=0.25),11,R02,0.184782,0,medium,56
+Q2_language_bias,BM25+Citation (lambda=0.25),12,R04,0.151382,0,low,5
+Q2_language_bias,BM25+Citation (lambda=0.25),13,R01,0.125511,0,medium,53
+Q2_language_bias,BM25+Citation (lambda=0.25),14,R11,0.055172,0,low,9
+Q2_language_bias,BM25+Citation (lambda=0.25),15,R15,0.048893,0,low,6
+Q3_llm_screening,BM25,1,R05,15.161601,1,low,0
+Q3_llm_screening,BM25,2,R07,10.728187,1,medium,81
+Q3_llm_screening,BM25,3,R03,8.529874,1,medium,168
+Q3_llm_screening,BM25,4,R13,7.503381,1,high,283
+Q3_llm_screening,BM25,5,R04,5.686402,1,low,5
+Q3_llm_screening,BM25,6,R09,4.893008,0,high,238
+Q3_llm_screening,BM25,7,R14,3.996362,0,medium,145
+Q3_llm_screening,BM25,8,R10,3.547328,0,high,158445
+Q3_llm_screening,BM25,9,R01,2.113121,0,medium,53
+Q3_llm_screening,BM25,10,R12,2.084203,0,low,5
+Q3_llm_screening,BM25,11,R15,1.644034,0,low,6
+Q3_llm_screening,BM25,12,R02,1.510665,0,medium,56
+Q3_llm_screening,BM25,13,R06,1.416748,0,high,10269
+Q3_llm_screening,BM25,14,R11,1.103098,0,low,9
+Q3_llm_screening,BM25,15,R08,0.000000,0,high,9801
+Q3_llm_screening,TF-IDF,1,R05,0.236594,1,low,0
+Q3_llm_screening,TF-IDF,2,R04,0.235579,1,low,5
+Q3_llm_screening,TF-IDF,3,R07,0.134772,1,medium,81
+Q3_llm_screening,TF-IDF,4,R03,0.116378,1,medium,168
+Q3_llm_screening,TF-IDF,5,R13,0.105840,1,high,283
+Q3_llm_screening,TF-IDF,6,R09,0.076592,0,high,238
+Q3_llm_screening,TF-IDF,7,R10,0.052155,0,high,158445
+Q3_llm_screening,TF-IDF,8,R14,0.048932,0,medium,145
+Q3_llm_screening,TF-IDF,9,R15,0.038434,0,low,6
+Q3_llm_screening,TF-IDF,10,R01,0.032495,0,medium,53
+Q3_llm_screening,TF-IDF,11,R02,0.027974,0,medium,56
+Q3_llm_screening,TF-IDF,12,R06,0.027482,0,high,10269
+Q3_llm_screening,TF-IDF,13,R12,0.026000,0,low,5
+Q3_llm_screening,TF-IDF,14,R11,0.017227,0,low,9
+Q3_llm_screening,TF-IDF,15,R08,0.000000,0,high,9801
+Q3_llm_screening,BM25+Citation (lambda=0.25),1,R05,0.750000,1,low,0
+Q3_llm_screening,BM25+Citation (lambda=0.25),2,R07,0.622704,1,medium,81
+Q3_llm_screening,BM25+Citation (lambda=0.25),3,R03,0.529060,1,medium,168
+Q3_llm_screening,BM25+Citation (lambda=0.25),4,R13,0.489121,1,high,283
+Q3_llm_screening,BM25+Citation (lambda=0.25),5,R10,0.425476,0,high,158445
+Q3_llm_screening,BM25+Citation (lambda=0.25),6,R09,0.356391,0,high,238
+Q3_llm_screening,BM25+Citation (lambda=0.25),7,R04,0.318702,1,low,5
+Q3_llm_screening,BM25+Citation (lambda=0.25),8,R14,0.301746,0,medium,145
+Q3_llm_screening,BM25+Citation (lambda=0.25),9,R06,0.262951,0,high,10269
+Q3_llm_screening,BM25+Citation (lambda=0.25),10,R08,0.191895,0,high,9801
+Q3_llm_screening,BM25+Citation (lambda=0.25),11,R01,0.187820,0,medium,53
+Q3_llm_screening,BM25+Citation (lambda=0.25),12,R02,0.159147,0,medium,56
+Q3_llm_screening,BM25+Citation (lambda=0.25),13,R12,0.140511,0,low,5
+Q3_llm_screening,BM25+Citation (lambda=0.25),14,R15,0.121956,0,low,6
+Q3_llm_screening,BM25+Citation (lambda=0.25),15,R11,0.102645,0,low,9
+Q4_retrieval_rag,BM25,1,R11,18.881927,1,low,9
+Q4_retrieval_rag,BM25,2,R01,14.062111,1,medium,53
+Q4_retrieval_rag,BM25,3,R02,7.596249,0,medium,56
+Q4_retrieval_rag,BM25,4,R06,6.324045,1,high,10269
+Q4_retrieval_rag,BM25,5,R13,5.232786,0,high,283
+Q4_retrieval_rag,BM25,6,R14,3.734979,0,medium,145
+Q4_retrieval_rag,BM25,7,R08,3.113485,0,high,9801
+Q4_retrieval_rag,BM25,8,R09,2.050655,0,high,238
+Q4_retrieval_rag,BM25,9,R15,1.911750,0,low,6
+Q4_retrieval_rag,BM25,10,R03,1.852991,0,medium,168
+Q4_retrieval_rag,BM25,11,R04,1.105259,0,low,5
+Q4_retrieval_rag,BM25,12,R10,1.084795,0,high,158445
+Q4_retrieval_rag,BM25,13,R05,0.979930,0,low,0
+Q4_retrieval_rag,BM25,14,R07,0.702307,0,medium,81
+Q4_retrieval_rag,BM25,15,R12,0.000000,0,low,5
+Q4_retrieval_rag,TF-IDF,1,R11,0.290426,1,low,9
+Q4_retrieval_rag,TF-IDF,2,R01,0.192111,1,medium,53
+Q4_retrieval_rag,TF-IDF,3,R02,0.093091,0,medium,56
+Q4_retrieval_rag,TF-IDF,4,R06,0.085225,1,high,10269
+Q4_retrieval_rag,TF-IDF,5,R13,0.072917,0,high,283
+Q4_retrieval_rag,TF-IDF,6,R04,0.045264,0,low,5
+Q4_retrieval_rag,TF-IDF,7,R14,0.044810,0,medium,145
+Q4_retrieval_rag,TF-IDF,8,R08,0.036063,0,high,9801
+Q4_retrieval_rag,TF-IDF,9,R15,0.034053,0,low,6
+Q4_retrieval_rag,TF-IDF,10,R09,0.028340,0,high,238
+Q4_retrieval_rag,TF-IDF,11,R03,0.027566,0,medium,168
+Q4_retrieval_rag,TF-IDF,12,R10,0.017294,0,high,158445
+Q4_retrieval_rag,TF-IDF,13,R05,0.015029,0,low,0
+Q4_retrieval_rag,TF-IDF,14,R07,0.009484,0,medium,81
+Q4_retrieval_rag,TF-IDF,15,R12,0.000000,0,low,5
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),1,R11,0.798078,1,low,9
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),2,R01,0.641844,1,medium,53
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),3,R06,0.444063,1,high,10269
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),4,R02,0.386146,0,medium,56
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),5,R13,0.325800,0,high,283
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),6,R08,0.315564,0,high,9801
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),7,R10,0.293089,0,high,158445
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),8,R14,0.252413,0,medium,145
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),9,R09,0.195802,0,high,238
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),10,R03,0.180714,0,medium,168
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),11,R07,0.119908,0,medium,81
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),12,R15,0.116566,0,low,6
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),13,R04,0.081313,0,low,5
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),14,R05,0.038923,0,low,0
+Q4_retrieval_rag,BM25+Citation (lambda=0.25),15,R12,0.037412,0,low,5

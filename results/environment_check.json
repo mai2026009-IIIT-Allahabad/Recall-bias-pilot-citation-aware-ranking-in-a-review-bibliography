@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-17T12:45:32+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "matplotlib": "3.11.2",
+  "reportlab": "5.1.0",
+  "checks": {
+    "python_minimum": "passed",
+    "matplotlib_import": "passed",
+    "reportlab_import": "passed",
+    "bm25_topical_smoke": "review_match",
+    "tfidf_topical_smoke": "review_match"
+  },
+  "gpu": "not required; rankers run on CPU"
+}

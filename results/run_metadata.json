@@ -1,0 +1,115 @@
+{
+  "run_at_utc": "2026-11-17T12:45:33+00:00",
+  "run_type": "deterministic; no random seed used",
+  "elapsed_seconds": 0.6068,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "matplotlib": "3.11.2"
+  },
+  "corpus_path": "data/reference_corpus.csv",
+  "corpus_sha256": "ff4795da98c91e653302b370595f05d6d34cdb88baa20b05955efee427ed93a0",
+  "config_sha256": "72e70d9573af659721ca08b44409bc81b5c2f60143d2190cb22d300c4368c678",
+  "script_sha256": "4733b17e3a6cd4fae6ac6d77091b7d317c40e82a75c25ec2388318042ffd50ce",
+  "n_documents": 15,
+  "n_queries": 4,
+  "n_gold_labels": 15,
+  "abstract_missing": [
+    "R04"
+  ],
+  "citation_strata": {
+    "low": [
+      "R04",
+      "R05",
+      "R11",
+      "R12",
+      "R15"
+    ],
+    "medium": [
+      "R01",
+      "R02",
+      "R03",
+      "R07",
+      "R14"
+    ],
+    "high": [
+      "R06",
+      "R08",
+      "R09",
+      "R10",
+      "R13"
+    ]
+  },
+  "primary_lambda": 0.25,
+  "sensitivity_lambdas": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "metrics_summary": [
+    {
+      "method": "BM25",
+      "macro_recall_at_5": "0.916667",
+      "macro_precision_at_5": "0.700000",
+      "macro_ndcg_at_5": "0.933207",
+      "macro_mrr": "1.000000",
+      "macro_low_citation_recall_at_5": "1.000000",
+      "macro_mean_log_citations_top_5": "3.650467",
+      "queries_n": 4
+    },
+    {
+      "method": "TF-IDF",
+      "macro_recall_at_5": "0.916667",
+      "macro_precision_at_5": "0.700000",
+      "macro_ndcg_at_5": "0.922165",
+      "macro_mrr": "1.000000",
+      "macro_low_citation_recall_at_5": "1.000000",
+      "macro_mean_log_citations_top_5": "3.573148",
+      "queries_n": 4
+    },
+    {
+      "method": "BM25+Citation (lambda=0.25)",
+      "macro_recall_at_5": "0.804167",
+      "macro_precision_at_5": "0.600000",
+      "macro_ndcg_at_5": "0.866507",
+      "macro_mrr": "1.000000",
+      "macro_low_citation_recall_at_5": "0.750000",
+      "macro_mean_log_citations_top_5": "5.639528",
+      "queries_n": 4
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "lambda": "0.000000",
+      "macro_recall_at_5": "0.916667",
+      "macro_low_citation_recall_at_5": "1.000000",
+      "mean_log_citations_top_5": "3.650467"
+    },
+    {
+      "lambda": "0.100000",
+      "macro_recall_at_5": "0.916667",
+      "macro_low_citation_recall_at_5": "1.000000",
+      "mean_log_citations_top_5": "4.249126"
+    },
+    {
+      "lambda": "0.250000",
+      "macro_recall_at_5": "0.804167",
+      "macro_low_citation_recall_at_5": "0.750000",
+      "mean_log_citations_top_5": "5.639528"
+    },
+    {
+      "lambda": "0.500000",
+      "macro_recall_at_5": "0.804167",
+      "macro_low_citation_recall_at_5": "0.750000",
+      "mean_log_citations_top_5": "6.418456"
+    },
+    {
+      "lambda": "1.000000",
+      "macro_recall_at_5": "0.279166",
+      "macro_low_citation_recall_at_5": "0.000000",
+      "mean_log_citations_top_5": "8.305186"
+    }
+  ]
+}

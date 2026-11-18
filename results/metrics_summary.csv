@@ -1,0 +1,4 @@
+method,macro_recall_at_5,macro_precision_at_5,macro_ndcg_at_5,macro_mrr,macro_low_citation_recall_at_5,macro_mean_log_citations_top_5,queries_n
+BM25,0.916667,0.700000,0.933207,1.000000,1.000000,3.650467,4
+TF-IDF,0.916667,0.700000,0.922165,1.000000,1.000000,3.573148,4
+BM25+Citation (lambda=0.25),0.804167,0.600000,0.866507,1.000000,0.750000,5.639528,4
