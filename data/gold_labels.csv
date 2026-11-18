@@ -1,0 +1,61 @@
+query_id,ref_id,relevant,annotation_basis
+Q1_citation_recommendation,R01,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R02,1,"Review Sections 3.1 and 7, Table 2, and references [2], [8], [15]: LLM citation recommendation bias and the Matthew effect."
+Q1_citation_recommendation,R03,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R04,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R05,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R06,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R07,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R08,1,"Review Sections 3.1 and 7, Table 2, and references [2], [8], [15]: LLM citation recommendation bias and the Matthew effect."
+Q1_citation_recommendation,R09,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R10,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R11,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R12,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R13,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R14,0,Not in the query-specific relevant set frozen in experiment.json.
+Q1_citation_recommendation,R15,1,"Review Sections 3.1 and 7, Table 2, and references [2], [8], [15]: LLM citation recommendation bias and the Matthew effect."
+Q2_language_bias,R01,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R02,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R03,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R04,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R05,1,"Review Sections 3.2 and 5, Table 2, and references [5], [9], [12], [14]: multilingual screening, non-English review inclusion, and linguistic bias."
+Q2_language_bias,R06,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R07,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R08,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R09,1,"Review Sections 3.2 and 5, Table 2, and references [5], [9], [12], [14]: multilingual screening, non-English review inclusion, and linguistic bias."
+Q2_language_bias,R10,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R11,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R12,1,"Review Sections 3.2 and 5, Table 2, and references [5], [9], [12], [14]: multilingual screening, non-English review inclusion, and linguistic bias."
+Q2_language_bias,R13,0,Not in the query-specific relevant set frozen in experiment.json.
+Q2_language_bias,R14,1,"Review Sections 3.2 and 5, Table 2, and references [5], [9], [12], [14]: multilingual screening, non-English review inclusion, and linguistic bias."
+Q2_language_bias,R15,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R01,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R02,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R03,1,"Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+Q3_llm_screening,R04,1,"Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+Q3_llm_screening,R05,1,"Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+Q3_llm_screening,R06,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R07,1,"Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+Q3_llm_screening,R08,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R09,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R10,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R11,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R12,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R13,1,"Review Section 4.3 and Table 2, references [3], [4], [5], [7], [13]: LLM-assisted screening and its sensitivity/workload evidence."
+Q3_llm_screening,R14,0,Not in the query-specific relevant set frozen in experiment.json.
+Q3_llm_screening,R15,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R01,1,"Review Section 4.2, Sections 7.1 and 9.2-9.4, Table 2, references [1], [6], [11]: literature-review retrieval, RAG, and test-time corpus feedback."
+Q4_retrieval_rag,R02,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R03,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R04,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R05,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R06,1,"Review Section 4.2, Sections 7.1 and 9.2-9.4, Table 2, references [1], [6], [11]: literature-review retrieval, RAG, and test-time corpus feedback."
+Q4_retrieval_rag,R07,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R08,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R09,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R10,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R11,1,"Review Section 4.2, Sections 7.1 and 9.2-9.4, Table 2, references [1], [6], [11]: literature-review retrieval, RAG, and test-time corpus feedback."
+Q4_retrieval_rag,R12,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R13,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R14,0,Not in the query-specific relevant set frozen in experiment.json.
+Q4_retrieval_rag,R15,0,Not in the query-specific relevant set frozen in experiment.json.

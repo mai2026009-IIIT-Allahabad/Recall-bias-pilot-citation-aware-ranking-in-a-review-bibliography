@@ -1,0 +1,9 @@
+# Data protocol
+
+The candidate set is exactly the 15 numbered works in the supplied review's references. The review's own section text, Table 2, and reference list provide the query-specific relevance annotations in `../configs/experiment.json`. Labels describe relevance to a pilot query, not correctness of the original review's conclusions.
+
+`reference_corpus.csv` is a frozen OpenAlex metadata snapshot. It stores each original bibliography title, OpenAlex title and work ID, DOI, publication year, cited-by count, language, and reconstructed abstract where available. OpenAlex abstracts are distributed as inverted indexes; `scripts/fetch_openalex.py` reconstructs token order. One record has no abstract in the returned OpenAlex record and remains title-only. The query and ranking code does not add a generated abstract or silently substitute a different record. R01 and R06 use OpenAlex records identified by exact title or DOI; in particular, R06's selected record is the arXiv DOI version of the NeurIPS paper, and another OpenAlex record with the same title reports a different citation count. The count is therefore the selected OpenAlex-record count, not a deduplicated work-level count.
+
+Citation counts are time-varying. The included snapshot is the one used for the included result files; a fresh fetch creates a new snapshot and should be reported as a different run. The bottom/middle/top groups are five records each within this small bibliography, sorted by citation count and then reference ID. They are not OpenAlex field percentiles. R01 has a 2024 OpenAlex year for the arXiv record while the review cites the TMLR publication as 2025; the ranking uses citation count only and retains both year fields for audit.
+
+No raw full-text papers, user data, or restricted records are included. Metadata is accessed through the public OpenAlex API. Consult OpenAlex's current terms before redistributing an expanded dataset.
